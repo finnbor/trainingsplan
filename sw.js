@@ -1,5 +1,5 @@
 // Offline-Unterstützung: erst Netzwerk (für Updates), sonst Cache (z.B. kein Empfang im Gym).
-const CACHE = 'trainingsplan-v1';
+const CACHE = 'trainingsplan-v3';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
