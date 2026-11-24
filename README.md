@@ -1,6 +1,13 @@
 # Trainingsplan
 
-Simple Trainings-App fürs iPhone: Push / Pull / Legs & Bauch, Gewicht, Wiederholungen und Sätze eintragen, Trainingstage im Kalender abhaken.
+Simple Trainings-App fürs iPhone: Push / Pull, Gewicht, Wiederholungen und Sätze eintragen, Trainingstage im Kalender abhaken.
+
+- **Push:** Bankdrückmaschine, Butterfly, Seitheben Maschine, Trizeps Kabelzug, Beinpresse, Beinstrecker, Beinbeuger
+- **Pull:** Rudermaschine, Latzug Kabelturm, Reverse Butterfly, Unterer Rücken, Bizeps Curls Maschine, Bauchmaschine (Crunch), Wadenheben
+
+Alte Trainings (auch Legs/Bauch und Übungen, die nicht mehr im Plan sind) bleiben im Kalender und Verlauf sichtbar.
+
+**Tipp:** 3× pro Woche, abwechselnd Push und Pull. Wiederholungsbereich z. B. 10–15: Schaffst du in allen Sätzen 15, nächstes Mal mehr Gewicht.
 
 ## Auf GitHub hochladen (einmalig)
 
@@ -32,4 +39,6 @@ Simple Trainings-App fürs iPhone: Push / Pull / Legs & Bauch, Gewicht, Wiederho
 
 ## Später was ändern
 
-Die Übungen stehen ganz oben im `<script>`-Teil von `index.html` (`const PLANS = …`). Nach einer Änderung die Datei auf GitHub einfach neu hochladen. Die App lädt die neue Version beim nächsten Öffnen mit Internet, deine gespeicherten Daten bleiben dabei erhalten.
+Die Übungen stehen ganz oben im `<script>`-Teil von `index.html` (`const PLANS = …`). Nach einer Änderung `index.html` und `sw.js` auf GitHub einfach neu hochladen (gleiche Namen, die alten werden ersetzt). Die App lädt die neue Version beim nächsten Öffnen mit Internet, deine gespeicherten Daten bleiben dabei erhalten.
+
+> Backup-Dateien (`training-backup-….json`) nicht auf GitHub hochladen: Das Repo ist öffentlich.
